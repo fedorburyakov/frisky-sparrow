@@ -70,10 +70,8 @@ public class GameManager : MonoBehaviour
     {
         CurrentState = newState;
 
-        // Общая логика для паузы
         Time.timeScale = (CurrentState == GameState.Playing) ? 1f : 0f;
 
-        // Сообщаем подписчикам (UIManager, другие системы)
         OnGameStateChanged?.Invoke(CurrentState);
     }
 
