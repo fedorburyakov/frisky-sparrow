@@ -1,6 +1,6 @@
-# Malware Mines
+# Frisky Sparrow
 
-This is a Unity project for the game **Malware Mines**.
+This is a Unity project for the game **Frisky Sparrow**.
 
 ## Project Structure
 
